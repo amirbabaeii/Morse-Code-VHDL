@@ -1,0 +1,20 @@
+
+NET "CLK_25MHz"    LOC = "P50";   # 24MHz on-board clock
+#NET "reset"       LOC = "p133";
+
+# VGA
+NET "HS"        LOC = "P87";
+NET "VS"        LOC = "P85";  
+NET "RED[0]"      LOC = "P79";
+NET "RED[1]"      LOC = "P80";  
+NET "GREEN[0]"      LOC = "P81";
+NET "GREEN[1]"      LOC = "P82"; 
+NET "BLUE[0]"      LOC = "P83";
+NET "BLUE[1]"      LOC = "P84";
+
+#NET "start"     LOC = "P75";
+#NET "led"       LOC="P132";
+#NET "idle_led"       LOC="P131";
+
+
+#NET "start" CLOCK_DEDICATED_ROUTE = FALSE;

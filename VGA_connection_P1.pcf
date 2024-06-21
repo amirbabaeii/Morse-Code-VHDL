@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Dec 21 17:59:02 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "RED<0>" LOCATE = SITE "P79" LEVEL 1;
+COMP "HS" LOCATE = SITE "P87" LEVEL 1;
+COMP "RED<1>" LOCATE = SITE "P80" LEVEL 1;
+COMP "VS" LOCATE = SITE "P85" LEVEL 1;
+COMP "CLK_25MHz" LOCATE = SITE "P50" LEVEL 1;
+COMP "BLUE<0>" LOCATE = SITE "P83" LEVEL 1;
+COMP "BLUE<1>" LOCATE = SITE "P84" LEVEL 1;
+COMP "GREEN<0>" LOCATE = SITE "P81" LEVEL 1;
+COMP "GREEN<1>" LOCATE = SITE "P82" LEVEL 1;
+SCHEMATIC END;
+
